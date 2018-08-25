@@ -1,0 +1,251 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;    
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.portfolio {
+    background: url('../img/mt-landscape-at-sunset.png');
+    background-size: cover;
+    height: 400px;
+}
+
+/***** HEADER *****/
+header {
+    background: url('../img/mt-landscape-at-sunset.png');
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 { 
+    color: #0170ca;
+    font-family: 'Rye', cursive;
+    font-size: 45px;
+    padding: 50px 0;
+}
+
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #52899d;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;     
+}
+
+header h2 {
+    clear: both;
+    color: #fefefe;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-size: 38px; 
+    line-height: 80px; 
+    padding: 20px 0;
+    width: 1000px;
+}
+
+header h3 {
+    clear: both;
+    color: #a4ccdd;
+    font-family: 'Alex Brush', cursive; 
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 80px; 
+    padding: 20px 0;
+    width: 1000px;
+}
+
+header h2 span {
+    color: #1596c0;
+}
+
+.work-top {
+    background: url('../img/black-brick.png');
+    background-size: cover;
+    height: 300px;
+}
+
+/***** ABOUT SECTION *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    color: #2b2b2b;
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+}
+ 
+#about p {
+    color: #666666;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/***** WORK SECTION *****/
+#work {
+    background-color: #f9ceb7; 
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    color: #c49075;
+    font-family: 'Fondamento', cursive;
+    font-size: 24px;
+    line-height: 16px;
+    margin: 0 auto;
+    width: 190px;
+}
+ 
+#work p {
+    color: #2b2b2b;
+    font-family: Lora; 
+    font-size: 18px;
+    line-height: 30px; 
+    padding: 0 35px;
+}
+
+#work-portfolio {
+    background-color: #f9ceb7; 
+    text-align: center;
+    height: 400px;
+}
+
+#work-portfolio .full-width {
+    padding: 15px 0;
+}
+ 
+#work-portfolio img {
+    border-style: 1px;
+    padding-bottom: 10px;
+}
+
+#work-portfolio h3 {
+    color: #c49075;
+    font-family: 'Fondamento', cursive;
+    font-size: 24px;
+    line-height: 16px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 190px;
+}
+ 
+#work-portfolio p {
+    color: #2b2b2b;
+    font-family: Lora; 
+    font-size: 18px;
+    line-height: 30px; 
+    padding: 0 35px;
+}
+
+
+/***** CONTACT SECTION *****/
+#contact {
+    background-color: #EBEBEB;
+ }
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#rogue {border: 12px solid #c0c0c0;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    color: #2B2B2B;
+    font-family: Lora;
+    font-size: 36px;
+    line-height: 44px; 
+}
+
+#contact h3 {
+    color: #2B2B2B;
+    font-family: "Source Sans Pro";
+    font-size: 29px;
+    line-height: 44px; 
+}
+
+#email-header {
+	color: #2B2B2B;
+	font-family: "Source Sans Pro";
+	font-size: 32px;
+	font-weight: normal;
+    line-height: 44px; 
+    margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+	color: #2B2B2B;
+	font-family: "Source Sans Pro";
+	font-size: 29px;
+	font-weight: bold;
+	line-height: 44px; 
+    margin: 40px 0 0px 0;
+}
+
+#contact a {
+    color: #C49075;
+    font-size: 28px;
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
